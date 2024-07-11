@@ -1,0 +1,42 @@
+:root {
+  --primary-color: #ff6200;
+  --secondary-color: #ffffff;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-content {
+  margin-inline: auto;
+  width: 90%;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.tombol {
+  width: 50%;
+  background-color: inherit;
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px var(--primary-color);
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.tombol span {
+  color: inherit;
+}
+
+.tombol:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: none;
+}
